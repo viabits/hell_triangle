@@ -35,3 +35,12 @@ Instruction to run all tests
 ----------------------------
 
 - rspec -fd
+
+Why Ruby?
+---------
+* For this solution I chose Ruby due to its clear, elegant & very effective syntax.
+  Ruby is one of the most wanted modern languages to learn nowadays.
+  In this case, of course I could have chose other languages like Python or .Net,
+  but Ruby is the language i like the most for the time being :-D .
+
+
