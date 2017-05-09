@@ -16,13 +16,13 @@ class Interaction
   private
 
   def introduction
-    puts "\n" * 2
-    puts "<<< Hell Triangle >>>\n\n"
+    puts "\n\n<<< Hell Triangle >>>\n\n"
+    puts "example = [[6],[3,5],[9,7,1],[4,6,8,4]]\n"
   end
 
   def conclusion result
-    puts "\n<<< done. >>>\n"
-    puts "\nmaximum total is: #{result}\n\n"
+    puts "\nmaximum total is: #{result}\n"
+    puts "\n<<< done. >>>\n\n"
   end
 
 end
