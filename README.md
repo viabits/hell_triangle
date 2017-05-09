@@ -5,9 +5,9 @@ Hell Triangle
   Example:
 
 *  6
-  3 5
- 9 7 1
-4 6 8 4
+   3 5
+   9 7 1
+   4 6 8 4
 
 * In this triangle the maximum total is 6 + 5 + 7 + 8 = 26
 
