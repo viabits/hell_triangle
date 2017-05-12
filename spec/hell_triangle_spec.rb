@@ -29,6 +29,22 @@ describe HellTriangle do
 
     end
 
+    context 'when triangle of numbers is [[1],[1,1],[0,0,0],[1,1,1,1]]' do
+      let(:triangle) {[[1],[1,1],[0,0,0],[1,1,1,1]]}
+      it 'returns 3' do
+        expect(HellTriangle.totalize(triangle)).to eql(3)
+      end
+
+    end
+
+    context 'when triangle of numbers is [[1],[1,1],[0,0,0],[0,0,0,0]]' do
+      let(:triangle) {[[1],[1,1],[0,0,0],[0,0,0,0]]}
+      it 'returns 3' do
+        expect(HellTriangle.totalize(triangle)).to eql(2)
+      end
+
+    end
+
   end
 
   describe '.nearest_element' do
